@@ -95,7 +95,7 @@ const certifications = await Promise.all(
                 {new Date(certification.data.issued_on).toLocaleDateString()}
               </div>
               <div class="font-semibold text-black dark:text-white">
-                {certification.data.title}
+                <a href={`${certification.data.certificateURL}`}>{certification.data.title}</a>
               </div>
               <div class="text-sm opacity-75">
                 {certification.data.issuer}
@@ -126,7 +126,7 @@ const certifications = await Promise.all(
         </ul>
       </section>
 
-      <section class="animate space-y-6">
+      <!-- <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
             Latest posts
@@ -142,7 +142,7 @@ const certifications = await Promise.all(
             </li>
           ))}
         </ul>
-      </section>
+      </section> -->
 
       <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">

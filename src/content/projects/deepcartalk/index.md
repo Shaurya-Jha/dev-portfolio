@@ -1,14 +1,23 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
-date: "Mar 26 2024"
-demoURL: "https://astro-nano-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-nano"
+title: "DeepCarTalk"
+description: "A discourse based forum for all car enthusiasts."
+date: "Sep 20 2025"
+demoURL: "https://deepcartalk.com"
+# repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
 
-![Astro Nano](/astro-nano.png)
+![DeepCarTalk](/deepcartalk-homepage.png)
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+DeepCarTalk is a discourse based forum for all the car enthusiasts out there. You want to know something about a car, review for next car you might be purchasing, or want to know information about the part your car is running on? This is a place for you.
+
+### Tech Stack used
+- Discourse forum
+- Frontend
+  - Ember.js
+- Backend
+  - Ruby on Rails
+
+<!-- Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
 
 Built with Astro, Tailwind and Typescript, an no frameworks.
 
@@ -76,4 +85,4 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 
 ## 🏛️ License
 
-MIT
+MIT -->

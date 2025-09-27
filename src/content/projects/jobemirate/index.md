@@ -1,17 +1,27 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
-date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+title: "Jobemirate"
+description: "A website made for freelance client for their business needs."
+date: "Oct 5 2025"
+demoURL: "https://jobemirate.onrender.com/"
+# repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---
 
-![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
+![Astro Sphere Lighthouse Score](/jobemirate-homepage.png)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+Jobemirate is a website made for one of the freelance client for their business needs.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+### Tech stack used
+- Frontend
+  - React + Next.js
+  - Bootstrap 5
+  - Animate.css
+- Backend
+  - Django
+  - Django Rest Framework
+- Database
+  - Supabase + Supabase S3 bucket
 
+<!-- 
 ## 🚀 Deploy your own
 
 <div class="flex gap-2">
@@ -73,4 +83,4 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 
 ## 🏛️ License
 
-MIT
+MIT -->
